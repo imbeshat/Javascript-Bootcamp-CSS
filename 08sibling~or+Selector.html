@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			.sibling + li {
+				font-style: italic;
+				font-size: 20px;
+				color: #e03b8b;
+			}
+
+			.tildeSibling ~ p {
+				font-weight: bold;
+				background-color: #51e1ed;
+			}
+		</style>
+		<title>Sibling ~ or + Selector</title>
+	</head>
+	<body>
+		<header>
+			<h2>CSS Selectors</h2>
+		</header>
+		<div>
+			<p class="tildeSibling">Sibling ~ or + Selector</p>
+			<li>This is list.</li>
+			<ol>
+				<li class="sibling">item1</li>
+				<li>+ Sibling selector is used</li>
+				<li>item2</li>
+			</ol>
+			<p>~ Sibling selector is used</p>
+			<p>~ Sibling selector is used</p>
+		</div>
+		<section>
+			<ul>
+				<li>List with <a href="#">link</a></li>
+				<li>List item without link</li>
+			</ul>
+		</section>
+		<footer>
+			<p>This is paragraph 1</p>
+			<p>This is paragraph 2</p>
+		</footer>
+	</body>
+</html>
