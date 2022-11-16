@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Position Css</title>
+		<style>
+			body {
+				background: color #f5f5dc;
+			}
+			.boxes {
+				border: 2px solid rgb(48, 48, 48);
+				margin: 200px 200px;
+			}
+			#pos {
+				background-color: #959b9c;
+			}
+			.box0 {
+				background-color: #6a1b4d;
+				color: #f5f5dc;
+				display: inline-block;
+				height: 80px;
+				width: 80px;
+				position: sticky;
+				top: 10px;
+			}
+			.box1 {
+				background-color: #e21717;
+				display: inline-block;
+				height: 80px;
+				width: 80px;
+				margin: 50px 95px;
+				position: static;
+			}
+			.box2 {
+				background-color: #3944f7;
+				display: inline-block;
+				height: 80px;
+				width: 80px;
+				margin: 50px 95px;
+				position: relative;
+				top: 30px;
+				left: 20px;
+			}
+			.box3 {
+				background-color: #22cb5c;
+				display: inline-block;
+				height: 80px;
+				width: 80px;
+				margin: 50px 95px;
+				position: absolute;
+				top: 200px;
+				left: 300px;
+			}
+			.box4 {
+				background-color: #f7cd2e;
+				display: inline-block;
+				height: 80px;
+				width: 80px;
+				margin: 50px 95px;
+				position: fixed;
+				top: 500px;
+				left: 900px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="boxes">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dignissimos deleniti labore necessitatibus voluptas nihil iusto aliquam
+			delectus nam? Quod commodi assumenda expedita laudantium ab perferendis quae, accusamus fugiat vitae tempore, dolor quos numquam voluptas
+			ipsum officia voluptatibus. Asperiores cum voluptatem officia et esse harum adipisci doloremque facere eius impedit, repudiandae expedita
+			saepe, amet similique laborum nam nisi quae placeat aspernatur quaerat neque. Quod consequatur asperiores omnis? Consequatur voluptate
+			sequi dolores minima hic. Pariatur, praesentium ullam ratione explicabo qui mollitia sapiente. Perferendis voluptate dolor hic saepe et
+			sequi? Neque sit ullam architecto ipsa corporis? Cumque quisquam deleniti error ea quidem quo magnam molestias, provident repellat at
+			illum incidunt rem amet saepe repellendus voluptate eveniet harum quasi excepturi tenetur placeat eos dolorum. Magni deleniti corporis
+			porro laboriosam. Cum iste rem, inventore ab ullam ea dicta facere libero dignissimos a debitis repudiandae modi vel quibusdam deleniti
+			perspiciatis repellendus consectetur ipsam id amet recusandae saepe quas? Assumenda nam neque in omnis voluptatem eaque perspiciatis est
+			doloremque, illo ducimus, soluta sit dicta dignissimos asperiores provident voluptas possimus. Saepe, fugiat quasi nam praesentium,
+			mollitia voluptatibus unde reprehenderit illo nisi commodi ab accusantium non a facilis esse voluptate impedit tempore ipsum? Distinctio
+			dolorum amet odio voluptatibus.
+		</div>
+		<div class="box0">Sticky</div>
+		<div class="boxes" id="pos">
+			<div class="box1">Static</div>
+			<div class="box2">Relative</div>
+			<div class="box3">Absolute</div>
+			<div class="box4">Fixed</div>
+		</div>
+		<div class="boxes">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat at maiores sapiente accusantium nam, commodi vero error voluptates
+			officia iusto, sint mollitia! Atque unde aspernatur eaque harum. Pariatur numquam facere architecto eos itaque. Eius hic porro, explicabo
+			fuga deserunt repellendus dolores dignissimos! Eius incidunt, minima magnam corporis consectetur laborum pariatur voluptate atque eum ipsa
+			ipsum laudantium fugiat suscipit cumque tenetur, velit voluptatem, ducimus natus facere commodi vel dignissimos nobis? Quod recusandae
+			nihil fuga quasi dolores! Eaque dolores, totam culpa corrupti facilis debitis saepe quam voluptatibus quod atque reiciendis consectetur
+			fugiat voluptate perferendis veniam praesentium corporis cumque doloribus eius ut maiores a animi veritatis. Quidem necessitatibus
+			expedita impedit quam temporibus adipisci. Vitae voluptas architecto odio eos velit. Fugiat, ratione. Illo iusto ipsa dolorum quos quae
+			dolores sit molestias quibusdam provident aut cumque minima necessitatibus temporibus obcaecati soluta blanditiis recusandae animi debitis
+			doloremque neque, alias, aspernatur sequi aliquid cupiditate? Molestiae dolores tempore saepe vero non omnis ea delectus dicta sit et, ad
+			perspiciatis nulla voluptatum ipsa sequi, earum tenetur? Quia omnis, cumque ducimus expedita voluptate eius dolores velit sed repudiandae
+			corrupti aliquam ratione autem itaque libero voluptates ullam aspernatur pariatur provident tempora soluta ipsa at aut rerum? Excepturi
+			corporis nihil obcaecati pariatur.
+		</div>
+		<div class="boxes">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dignissimos deleniti labore necessitatibus voluptas nihil iusto aliquam
+			delectus nam? Quod commodi assumenda expedita laudantium ab perferendis quae, accusamus fugiat vitae tempore, dolor quos numquam voluptas
+			ipsum officia voluptatibus. Asperiores cum voluptatem officia et esse harum adipisci doloremque facere eius impedit, repudiandae expedita
+			saepe, amet similique laborum nam nisi quae placeat aspernatur quaerat neque. Quod consequatur asperiores omnis? Consequatur voluptate
+			sequi dolores minima hic. Pariatur, praesentium ullam ratione explicabo qui mollitia sapiente. Perferendis voluptate dolor hic saepe et
+			sequi? Neque sit ullam architecto ipsa corporis? Cumque quisquam deleniti error ea quidem quo magnam molestias, provident repellat at
+			illum incidunt rem amet saepe repellendus voluptate eveniet harum quasi excepturi tenetur placeat eos dolorum. Magni deleniti corporis
+			porro laboriosam. Cum iste rem, inventore ab ullam ea dicta facere libero dignissimos a debitis repudiandae modi vel quibusdam deleniti
+			perspiciatis repellendus consectetur ipsam id amet recusandae saepe quas? Assumenda nam neque in omnis voluptatem eaque perspiciatis est
+			doloremque, illo ducimus, soluta sit dicta dignissimos asperiores provident voluptas possimus. Saepe, fugiat quasi nam praesentium,
+			mollitia voluptatibus unde reprehenderit illo nisi commodi ab accusantium non a facilis esse voluptate impedit tempore ipsum? Distinctio
+			dolorum amet odio voluptatibus.
+		</div>
+	</body>
+</html>
