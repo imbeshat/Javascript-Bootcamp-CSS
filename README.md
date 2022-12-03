@@ -1,2 +1,2 @@
 # Javascript-Bootcamp-CSS
-Files related to CSS selectors.
+Files related to CSS.
